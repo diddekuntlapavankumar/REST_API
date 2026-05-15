@@ -1,0 +1,24 @@
+{
+	"name": "ds_sink_httpapi",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adlsrestapi",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Calendar.csv",
+				"folderPath": "api",
+				"fileSystem": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

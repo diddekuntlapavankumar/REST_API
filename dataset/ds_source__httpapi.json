@@ -1,0 +1,22 @@
+{
+	"name": "ds_source__httpapi",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "/Sivaprasad-V/Adventure-Works-Azure-Data-Engineering-Project/refs/heads/main/Datasets/AdventureWorks_Calendar.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
