@@ -1,0 +1,20 @@
+{
+	"name": "ds_sink_restapi",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adlsrestapi",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "ds_raw_cases.json",
+				"folderPath": "restapi",
+				"fileSystem": "test"
+			}
+		},
+		"schema": {}
+	}
+}
