@@ -1,0 +1,15 @@
+{
+	"name": "ds_source_restapi",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "RESTAPI",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": "Sivaprasad-V/Adventure-Works-Azure-Data-Engineering-Project/blob/main/Datasets/AdventureWorks_Sales_2016.csv"
+		},
+		"schema": []
+	}
+}

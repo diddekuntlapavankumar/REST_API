@@ -1,0 +1,20 @@
+{
+	"name": "ds_sink_restapi",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adlsrestapi",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Sales_2016.csv",
+				"folderPath": "api",
+				"fileSystem": "test"
+			}
+		},
+		"schema": {}
+	}
+}
