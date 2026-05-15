@@ -9,7 +9,7 @@
 			"value": ""
 		},
 		"RESTAPI_properties_typeProperties_url": {
-			"value": "https://github.com/"
+			"value": "https://raw.githubusercontent.com/"
 		},
 		"adlsrestapi_properties_typeProperties_url": {
 			"value": "https://bronzeazureadlsstorage.dfs.core.windows.net/"
