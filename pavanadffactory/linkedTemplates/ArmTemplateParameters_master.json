@@ -9,7 +9,7 @@
 			"value": ""
 		},
 		"RESTAPI_properties_typeProperties_url": {
-			"value": "https://jsonplaceholder.typicode.com"
+			"value": "https://github.com/"
 		},
 		"adlsrestapi_properties_typeProperties_url": {
 			"value": "https://bronzeazureadlsstorage.dfs.core.windows.net/"

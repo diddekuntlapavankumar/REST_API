@@ -13,7 +13,7 @@
 		},
 		"RESTAPI_properties_typeProperties_url": {
 			"type": "string",
-			"defaultValue": "https://jsonplaceholder.typicode.com"
+			"defaultValue": "https://github.com/"
 		},
 		"adlsrestapi_properties_typeProperties_url": {
 			"type": "string",
