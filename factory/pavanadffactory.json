@@ -1,0 +1,15 @@
+{
+	"name": "pavanadffactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "64905b6a-2ffd-49d8-a300-f2b8c1678c7b",
+		"tenantId": "e21f95b2-1974-4eba-8657-f16c47d34f2d"
+	}
+}
